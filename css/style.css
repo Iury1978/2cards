@@ -1,5 +1,5 @@
 .block-slider {
-  width: 826px;
+  max-width: 826px;
   /* height: 493px; */
   padding: 19px 58px 30px 47px;
   background-color: #f5f4f2;
@@ -87,17 +87,12 @@
 
 .swiper {
   height: 377px;
-  width: 721px;
-}
-
-.cards {
-  display: flex;
+  max-width: 721px;
 }
 
 .card {
   width: 168px;
   height: 377px;
-  display: flex;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -150,4 +145,10 @@
   color: #1d3563;
   font-weight: 600;
   text-transform: uppercase;
+}
+
+@media (max-width:800px) {
+  .block-slider {
+    padding: 10px 40px 20px 10px;
+  }
 }

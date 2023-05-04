@@ -10,6 +10,12 @@
   <link rel="stylesheet" href="/css/default.css">
   <link rel="stylesheet" href="/css/fonts.css">
   <link rel="stylesheet" href="/css/style.css">
+
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+
+  <script defer src="./js/swiper-bundle.min.js"></script>
+  <script defer src="./js/index.js"></script>
+
 </head>
 
 <body>
@@ -116,7 +122,7 @@
   </div>
 </div> -->
 
-  <div class="block-slider">
+  <!-- <div class="block-slider">
     <h2 class="block-slider__title">ПОПУЛЯРНЫЕ ТОВАРЫ</h2>
     <div class="block-slider__header slider-header">
       <ul class="slider-header__items">
@@ -125,93 +131,258 @@
         </li>
       </ul>
       <div class="block-slider__control">
-        <div class="block-slider__prev">
+        <div class="block-slider__prev swiper-button-prev">
           <div class="block-slider__arrow block-slider__arrow_prev"></div>
         </div>
-        <div class="block-slider__next">
+        <div class="block-slider__next swiper-button-next">
           <div class="block-slider__arrow"></div>
         </div>
       </div>
     </div>
-    <div class="cards">
-      <div class="card">
-        <div class="card__wrapper">
-          <a href="#" class="card__link-img">
-            <img src="./img/IMG_2303.jpg" alt="" class="card__img">
-          </a>
-          <a href="#" class="card__link-text card-text">
-            <p class="card-text__title">Костюм</p>
-            <p class="card-text__subtitle">ПАНТЕОН</p>
-            <p class="card-text__desc">муж., летний, брюки,т.синий/василек</p>
-          </a>
+    <div class="slider">
+      <div class="cards swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="card ">
+            <div class="card__wrapper">
+              <a href="#" class="card__link-img">
+                <img src="./img/IMG_2303.jpg" alt="" class="card__img">
+              </a>
+              <a href="#" class="card__link-text card-text">
+                <p class="card-text__title">Костюм</p>
+                <p class="card-text__subtitle">ПАНТЕОН</p>
+                <p class="card-text__desc">муж., летний, брюки,т.синий/василек</p>
+              </a>
+            </div>
+
+            <div class="card__price-block">
+              <p class="card__value">2 077 Р</p>
+              <a href="#" class="card__basket">
+                <img src="./img/basket.jpg" alt="" class="card__basket-pic">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card ">
+            <div class="card__wrapper">
+              <a href="#" class="card__link-img">
+                <img src="./img/IMG_2303.jpg" alt="" class="card__img">
+              </a>
+              <a href="#" class="card__link-text card-text">
+                <p class="card-text__title">Костюм</p>
+                <p class="card-text__subtitle">ПАНТЕОН</p>
+                <p class="card-text__desc">муж., летний, брюки,т.синий/василек</p>
+              </a>
+            </div>
+
+            <div class="card__price-block">
+              <p class="card__value">2 077 Р</p>
+              <a href="#" class="card__basket">
+                <img src="./img/basket.jpg" alt="" class="card__basket-pic">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card ">
+            <div class="card__wrapper">
+              <a href="#" class="card__link-img">
+                <img src="./img/IMG_2303.jpg" alt="" class="card__img">
+              </a>
+              <a href="#" class="card__link-text card-text">
+                <p class="card-text__title">Костюм</p>
+                <p class="card-text__subtitle">ПАНТЕОН</p>
+                <p class="card-text__desc">муж., летний, брюки,т.синий/василек</p>
+              </a>
+            </div>
+
+            <div class="card__price-block">
+              <p class="card__value">2 077 Р</p>
+              <a href="#" class="card__basket">
+                <img src="./img/basket.jpg" alt="" class="card__basket-pic">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card ">
+            <div class="card__wrapper">
+              <a href="#" class="card__link-img">
+                <img src="./img/IMG_2303.jpg" alt="" class="card__img">
+              </a>
+              <a href="#" class="card__link-text card-text">
+                <p class="card-text__title">Костюм</p>
+                <p class="card-text__subtitle">ПАНТЕОН</p>
+                <p class="card-text__desc">муж., летний, брюки,т.синий/василек</p>
+              </a>
+            </div>
+
+            <div class="card__price-block">
+              <p class="card__value">2 077 Р</p>
+              <a href="#" class="card__basket">
+                <img src="./img/basket.jpg" alt="" class="card__basket-pic">
+              </a>
+            </div>
+          </div>
         </div>
 
-        <div class="card__price-block">
-          <p class="card__value">2 077 Р</p>
-          <a href="#" class="card__basket">
-            <img src="./img/basket.jpg" alt="" class="card__basket-pic">
-          </a>
-        </div>
       </div>
-      <div class="card">
-        <div class="card__wrapper">
-          <a href="#" class="card__link-img">
-            <img src="./img/IMG_2303.jpg" alt="" class="card__img">
-          </a>
-          <a href="#" class="card__link-text card-text">
-            <p class="card-text__title">Костюм</p>
-            <p class="card-text__subtitle">ПАНТЕОН</p>
-            <p class="card-text__desc">муж., летний, брюки,т.синий/василек</p>
-          </a>
-        </div>
+    </div>
 
-        <div class="card__price-block">
-          <p class="card__value">2 077 Р</p>
-          <a href="#" class="card__basket">
-            <img src="./img/basket.jpg" alt="" class="card__basket-pic">
-          </a>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card__wrapper">
-          <a href="#" class="card__link-img">
-            <img src="./img/IMG_2303.jpg" alt="" class="card__img">
-          </a>
-          <a href="#" class="card__link-text card-text">
-            <p class="card-text__title">Костюм</p>
-            <p class="card-text__subtitle">ПАНТЕОН</p>
-            <p class="card-text__desc">муж., летний, брюки,т.синий/василек</p>
-          </a>
-        </div>
+  </div> -->
 
-        <div class="card__price-block">
-          <p class="card__value">2 077 Р</p>
-          <a href="#" class="card__basket">
-            <img src="./img/basket.jpg" alt="" class="card__basket-pic">
-          </a>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card__wrapper">
-          <a href="#" class="card__link-img">
-            <img src="./img/IMG_2303.jpg" alt="" class="card__img">
-          </a>
-          <a href="#" class="card__link-text card-text">
-            <p class="card-text__title">Костюм</p>
-            <p class="card-text__subtitle">ПАНТЕОН</p>
-            <p class="card-text__desc">муж., летний, брюки,т.синий/василек</p>
-          </a>
-        </div>
 
-        <div class="card__price-block">
-          <p class="card__value">2 077 Р</p>
-          <a href="#" class="card__basket">
-            <img src="./img/basket.jpg" alt="" class="card__basket-pic">
-          </a>
+  <div class="block-slider">
+    <h2 class="block-slider__title">ПОПУЛЯРНЫЕ ТОВАРЫ</h2>
+    <div class="block-slider__header slider-header">
+      <ul class="slider-header__items">
+        <li class="slider-header__item">
+          <a href="#" class="slider-header__link">Новинки</a>
+        </li>
+      </ul>
+      <div class="block-slider__control">
+        <div class="block-slider__prev block-slider__prev_new">
+          <div class="block-slider__arrow block-slider__arrow_prev"></div>
+        </div>
+        <div class="block-slider__next block-slider__next_new">
+          <div class="block-slider__arrow"></div>
         </div>
       </div>
     </div>
+    <div class="swiper swiper_new">
+      <div class="cards swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="card__wrapper">
+              <a href="#" class="card__link-img">
+                <img src="./img/IMG_2303.jpg" alt="" class="card__img">
+              </a>
+              <a href="#" class="card__link-text card-text">
+                <p class="card-text__title">Костюм</p>
+                <p class="card-text__subtitle">ПАНТЕОН</p>
+                <p class="card-text__desc">муж., летний, брюки,т.синий/василек</p>
+              </a>
+            </div>
+  
+            <div class="card__price-block">
+              <p class="card__value">2 077 Р</p>
+              <a href="#" class="card__basket">
+                <img src="./img/basket.jpg" alt="" class="card__basket-pic">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="card__wrapper">
+              <a href="#" class="card__link-img">
+                <img src="./img/IMG_2303.jpg" alt="" class="card__img">
+              </a>
+              <a href="#" class="card__link-text card-text">
+                <p class="card-text__title">Костюм</p>
+                <p class="card-text__subtitle">ПАНТЕОН</p>
+                <p class="card-text__desc">муж., летний, брюки,т.синий/василек</p>
+              </a>
+            </div>
+  
+            <div class="card__price-block">
+              <p class="card__value">2 077 Р</p>
+              <a href="#" class="card__basket">
+                <img src="./img/basket.jpg" alt="" class="card__basket-pic">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="card__wrapper">
+              <a href="#" class="card__link-img">
+                <img src="./img/IMG_2303.jpg" alt="" class="card__img">
+              </a>
+              <a href="#" class="card__link-text card-text">
+                <p class="card-text__title">Костюм</p>
+                <p class="card-text__subtitle">ПАНТЕОН</p>
+                <p class="card-text__desc">муж., летний, брюки,т.синий/василек</p>
+              </a>
+            </div>
+  
+            <div class="card__price-block">
+              <p class="card__value">2 077 Р</p>
+              <a href="#" class="card__basket">
+                <img src="./img/basket.jpg" alt="" class="card__basket-pic">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="card__wrapper">
+              <a href="#" class="card__link-img">
+                <img src="./img/IMG_2303.jpg" alt="" class="card__img">
+              </a>
+              <a href="#" class="card__link-text card-text">
+                <p class="card-text__title">Костюм</p>
+                <p class="card-text__subtitle">ПАНТЕОН</p>
+                <p class="card-text__desc">муж., летний, брюки,т.синий/василек</p>
+              </a>
+            </div>
+  
+            <div class="card__price-block">
+              <p class="card__value">2 077 Р</p>
+              <a href="#" class="card__basket">
+                <img src="./img/basket.jpg" alt="" class="card__basket-pic">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="card__wrapper">
+              <a href="#" class="card__link-img">
+                <img src="./img/IMG_2303.jpg" alt="" class="card__img">
+              </a>
+              <a href="#" class="card__link-text card-text">
+                <p class="card-text__title">Костюм</p>
+                <p class="card-text__subtitle">ПАНТЕОН</p>
+                <p class="card-text__desc">муж., летний, брюки,т.синий/василек</p>
+              </a>
+            </div>
+  
+            <div class="card__price-block">
+              <p class="card__value">2 077 Р</p>
+              <a href="#" class="card__basket">
+                <img src="./img/basket.jpg" alt="" class="card__basket-pic">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="card__wrapper">
+              <a href="#" class="card__link-img">
+                <img src="./img/IMG_2303.jpg" alt="" class="card__img">
+              </a>
+              <a href="#" class="card__link-text card-text">
+                <p class="card-text__title">Костюм</p>
+                <p class="card-text__subtitle">ПАНТЕОН</p>
+                <p class="card-text__desc">муж., летний, брюки,т.синий/василек</p>
+              </a>
+            </div>
+  
+            <div class="card__price-block">
+              <p class="card__value">2 077 Р</p>
+              <a href="#" class="card__basket">
+                <img src="./img/basket.jpg" alt="" class="card__basket-pic">
+              </a>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  
   </div>
+
 
   <div class="block-slider">
     <h2 class="block-slider__title">ПОПУЛЯРНЫЕ ТОВАРЫ</h2>
@@ -222,92 +393,146 @@
         </li>
       </ul>
       <div class="block-slider__control">
-        <div class="block-slider__prev">
+        <div class="block-slider__prev block-slider__prev_hits">
           <div class="block-slider__arrow block-slider__arrow_prev"></div>
         </div>
-        <div class="block-slider__next">
+        <div class="block-slider__next block-slider__next_hits">
           <div class="block-slider__arrow"></div>
         </div>
       </div>
     </div>
-    <div class="cards">
-      <div class="card">
-        <div class="card__wrapper">
-          <a href="#" class="card__link-img">
-            <img src="./img/IMG_2303.jpg" alt="" class="card__img">
-          </a>
-          <a href="#" class="card__link-text card-text">
-            <p class="card-text__title">Костюм</p>
-            <p class="card-text__subtitle">ПАНТЕОН</p>
-            <p class="card-text__desc">муж., летний, брюки,т.синий/василек</p>
-          </a>
+    <div class="swiper swiper_hits">
+      <div class="cards swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="card__wrapper">
+              <a href="#" class="card__link-img">
+                <img src="./img/IMG_2303.jpg" alt="" class="card__img">
+              </a>
+              <a href="#" class="card__link-text card-text">
+                <p class="card-text__title">Костюм</p>
+                <p class="card-text__subtitle">ПАНТЕОН</p>
+                <p class="card-text__desc">муж., летний, брюки,т.синий/василек</p>
+              </a>
+            </div>
+
+            <div class="card__price-block">
+              <p class="card__value">2 077 Р</p>
+              <a href="#" class="card__basket">
+                <img src="./img/basket.jpg" alt="" class="card__basket-pic">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="card__wrapper">
+              <a href="#" class="card__link-img">
+                <img src="./img/IMG_2303.jpg" alt="" class="card__img">
+              </a>
+              <a href="#" class="card__link-text card-text">
+                <p class="card-text__title">Костюм</p>
+                <p class="card-text__subtitle">ПАНТЕОН</p>
+                <p class="card-text__desc">муж., летний, брюки,т.синий/василек</p>
+              </a>
+            </div>
+
+            <div class="card__price-block">
+              <p class="card__value">2 077 Р</p>
+              <a href="#" class="card__basket">
+                <img src="./img/basket.jpg" alt="" class="card__basket-pic">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="card__wrapper">
+              <a href="#" class="card__link-img">
+                <img src="./img/IMG_2303.jpg" alt="" class="card__img">
+              </a>
+              <a href="#" class="card__link-text card-text">
+                <p class="card-text__title">Костюм</p>
+                <p class="card-text__subtitle">ПАНТЕОН</p>
+                <p class="card-text__desc">муж., летний, брюки,т.синий/василек</p>
+              </a>
+            </div>
+
+            <div class="card__price-block">
+              <p class="card__value">2 077 Р</p>
+              <a href="#" class="card__basket">
+                <img src="./img/basket.jpg" alt="" class="card__basket-pic">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="card__wrapper">
+              <a href="#" class="card__link-img">
+                <img src="./img/IMG_2303.jpg" alt="" class="card__img">
+              </a>
+              <a href="#" class="card__link-text card-text">
+                <p class="card-text__title">Костюм</p>
+                <p class="card-text__subtitle">ПАНТЕОН</p>
+                <p class="card-text__desc">муж., летний, брюки,т.синий/василек</p>
+              </a>
+            </div>
+
+            <div class="card__price-block">
+              <p class="card__value">2 077 Р</p>
+              <a href="#" class="card__basket">
+                <img src="./img/basket.jpg" alt="" class="card__basket-pic">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="card__wrapper">
+              <a href="#" class="card__link-img">
+                <img src="./img/IMG_2303.jpg" alt="" class="card__img">
+              </a>
+              <a href="#" class="card__link-text card-text">
+                <p class="card-text__title">Костюм</p>
+                <p class="card-text__subtitle">ПАНТЕОН</p>
+                <p class="card-text__desc">муж., летний, брюки,т.синий/василек</p>
+              </a>
+            </div>
+
+            <div class="card__price-block">
+              <p class="card__value">2 077 Р</p>
+              <a href="#" class="card__basket">
+                <img src="./img/basket.jpg" alt="" class="card__basket-pic">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="card__wrapper">
+              <a href="#" class="card__link-img">
+                <img src="./img/IMG_2303.jpg" alt="" class="card__img">
+              </a>
+              <a href="#" class="card__link-text card-text">
+                <p class="card-text__title">Костюм</p>
+                <p class="card-text__subtitle">ПАНТЕОН</p>
+                <p class="card-text__desc">муж., летний, брюки,т.синий/василек</p>
+              </a>
+            </div>
+
+            <div class="card__price-block">
+              <p class="card__value">2 077 Р</p>
+              <a href="#" class="card__basket">
+                <img src="./img/basket.jpg" alt="" class="card__basket-pic">
+              </a>
+            </div>
+          </div>
         </div>
 
-        <div class="card__price-block">
-          <p class="card__value">2 077 Р</p>
-          <a href="#" class="card__basket">
-            <img src="./img/basket.jpg" alt="" class="card__basket-pic">
-          </a>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card__wrapper">
-          <a href="#" class="card__link-img">
-            <img src="./img/IMG_2303.jpg" alt="" class="card__img">
-          </a>
-          <a href="#" class="card__link-text card-text">
-            <p class="card-text__title">Костюм</p>
-            <p class="card-text__subtitle">ПАНТЕОН</p>
-            <p class="card-text__desc">муж., летний, брюки,т.синий/василек</p>
-          </a>
-        </div>
-
-        <div class="card__price-block">
-          <p class="card__value">2 077 Р</p>
-          <a href="#" class="card__basket">
-            <img src="./img/basket.jpg" alt="" class="card__basket-pic">
-          </a>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card__wrapper">
-          <a href="#" class="card__link-img">
-            <img src="./img/IMG_2303.jpg" alt="" class="card__img">
-          </a>
-          <a href="#" class="card__link-text card-text">
-            <p class="card-text__title">Костюм</p>
-            <p class="card-text__subtitle">ПАНТЕОН</p>
-            <p class="card-text__desc">муж., летний, брюки,т.синий/василек</p>
-          </a>
-        </div>
-
-        <div class="card__price-block">
-          <p class="card__value">2 077 Р</p>
-          <a href="#" class="card__basket">
-            <img src="./img/basket.jpg" alt="" class="card__basket-pic">
-          </a>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card__wrapper">
-          <a href="#" class="card__link-img">
-            <img src="./img/IMG_2303.jpg" alt="" class="card__img">
-          </a>
-          <a href="#" class="card__link-text card-text">
-            <p class="card-text__title">Костюм</p>
-            <p class="card-text__subtitle">ПАНТЕОН</p>
-            <p class="card-text__desc">муж., летний, брюки,т.синий/василек</p>
-          </a>
-        </div>
-
-        <div class="card__price-block">
-          <p class="card__value">2 077 Р</p>
-          <a href="#" class="card__basket">
-            <img src="./img/basket.jpg" alt="" class="card__basket-pic">
-          </a>
-        </div>
       </div>
     </div>
+
   </div>
 </body>
 

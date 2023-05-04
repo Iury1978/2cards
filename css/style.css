@@ -85,17 +85,26 @@
   justify-content: center;
 }
 
+.swiper {
+  height: 377px;
+  width: 721px;
+}
+
 .cards {
   display: flex;
-  justify-content: space-between;
 }
 
 .card {
   width: 168px;
   height: 377px;
   display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.card__wrapper {
+  width: 168px;
 }
 
 .card__link-img {

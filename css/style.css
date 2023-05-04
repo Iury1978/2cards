@@ -2,6 +2,7 @@
   width: 826px;
   /* height: 493px; */
   padding: 19px 58px 30px 47px;
+  background-color: #f5f4f2;
 }
 
 .block-slider__title {
@@ -27,6 +28,7 @@
   position: relative;
   font-size: 16px;
   color: #1d3563;
+  text-transform: uppercase;
 }
 
 .slider-header__link::after {
